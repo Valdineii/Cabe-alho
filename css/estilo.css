@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+}
+
+nav{
+	background-color:#08A459 ;
+	display: flex;
+	
+}
+
+.opcoes{
+    margin-left: 250px;
+}
+
+.opcoes ul{
+	display: flex;
+	list-style-type: none;
+	padding: 20px 0 0 20px;
+	text-decoration: none;
+}
+
+.opcoes li{
+	padding: 20px;
+	font-size: 20px;
+}
+
+.opcoes li a{
+	text-decoration: none;
+	color: white;
+}
+
+ .opcoes li:hover {
+	background-color: white;
+        }
+
+.opcoes li:hover a {
+	color: #08A459;
+}
+
+nav img{
+    padding: 10px;
+}
+
+#usuario{
+    padding: 25px 15px 0 0;
+    margin-left: auto;
+}
+
+.barra_pesquisa{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.barra_pesquisa input[type="text"]{
+	width: 300px;
+	height: 30px; 
+	border-radius: 10px;
+	padding-left: 10px; 
+}
+
+.barra_pesquisa input[type="text"]:foccus{
+	border-color: #08A459;
+}
+
+.barra_pesquisa button{
+	background-color: white;
+	border: none; 
+}
